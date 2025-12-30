@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Admission Form - JSPM Rajarshri College of Engineering</title>
+</head>
+<body style="margin:0; padding:0; background:linear-gradient(120deg,#1e3c72,#2a5298); font-family:Arial, sans-serif;">
+
+    <div style="width:60%; margin:40px auto; background:#ffffff; padding:30px; border-radius:12px; box-shadow:0 0 15px rgba(0,0,0,0.3);">
+        
+        <h1 style="text-align:center; color:#1e3c72;">
+            JSPM Rajarshri College of Engineering Pune
+        </h1>
+        <h3 style="text-align:center; color:#555;">
+             Student Admission Form
+        </h3>
+
+        <hr style="border:1px solid #ddd;">
+
+        <form enctype="multipart/form-data">
+
+            <!-- Personal Details -->
+            <h2 style="color:#2a5298;">Personal Details</h2>
+
+            <label>Full Name:</label>
+            <input type="text" required
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+
+            <label>Date of Birth:</label>
+            <input type="date" required
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+
+            <label>Gender:</label>
+            <select
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+                <option>Select</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <!-- Contact Details -->
+            <h2 style="color:#2a5298;">Contact Details</h2>
+
+            <label>Email:</label>
+            <input type="email" required
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+
+            <label>Mobile Number:</label>
+            <input type="tel" required
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+
+            <label>Address:</label>
+            <textarea rows="3"
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;"></textarea>
+
+            <!-- Academic Details -->
+            <h2 style="color:#2a5298;">Academic Details</h2>
+
+            <label>Course Applied For:</label>
+            <select
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+                <option>Select Course</option>
+                <option>Computer Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Electronics & Telecommunication</option>
+                <option>Civil Engineering</option>
+                <option>AI & Data Science</option>
+            </select>
+
+            <label>12th / Diploma Percentage:</label>
+            <input type="number" step="0.01"
+            style="width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ccc;">
+
+            <!-- Document Upload Section -->
+            <h2 style="color:#2a5298;">Upload Documents</h2>
+
+            <label>Passport Size Photograph:</label>
+            <input type="file" accept="image/*" required
+            style="width:100%; padding:8px; margin:8px 0; border:1px solid #ccc; border-radius:6px;">
+
+            <label>12th / Diploma Marksheet (PDF/Image):</label>
+            <input type="file" accept=".pdf,image/*" required
+            style="width:100%; padding:8px; margin:8px 0; border:1px solid #ccc; border-radius:6px;">
+
+            <label>ID Proof (Aadhar/PAN):</label>
+            <input type="file" accept=".pdf,image/*" required
+            style="width:100%; padding:8px; margin:8px 0; border:1px solid #ccc; border-radius:6px;">
+
+            <!-- Terms and Conditions -->
+            <h2 style="color:#2a5298;">Declaration</h2>
+
+            <div style="background:#f2f6ff; padding:15px; border-radius:8px; border:1px solid #cdd9ff;">
+                <input type="checkbox" required>
+                <label>
+                    I hereby confirm that all information and uploaded documents are correct. 
+                    I agree to abide by all rules and regulations of JSPM Rajarshri College of Engineering, Pune.
+                </label>
+            </div>
+
+            <br>
+
+            <button type="submit"
+            style="width:100%; padding:12px; background:#1e3c72; color:#fff; font-size:16px; border:none; border-radius:8px; cursor:pointer;">
+                Submit Admission Form
+            </button>
+
+        </form>
+
+        <p style="text-align:center; font-size:13px; color:#777; margin-top:20px;">
+            © JSPM Rajarshri College of Engineering, Pune
+        </p>
+
+    </div>
+
+</body>
+</html>
